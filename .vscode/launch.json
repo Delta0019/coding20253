@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "NC16644",
+      "request": "launch",
+      "mainClass": "NC16644",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
       "name": "Main",
       "request": "launch",
       "mainClass": "Main",
