@@ -4,7 +4,6 @@ import java.util.Scanner;
 public class Meituan202503022Q2 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        int T = input.nextInt();
         while (input.hasNext()) {
             int n = input.nextInt();
             int cnt = n;
