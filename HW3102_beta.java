@@ -92,7 +92,7 @@ class HW3102_beta {
     }
 }
 
-class Main {
+class Main_HW3102_beta {
     public static void main(String[] args) {
         int[][] points = { { 3, 10 }, { 5, 15 }, { 10, 2 }, { 4, 4 } };
         HW3102_beta solution = new HW3102_beta();

@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Main_HW3102",
+      "request": "launch",
+      "mainClass": "Main_HW3102",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
+      "name": "Main_HW3102_beta",
+      "request": "launch",
+      "mainClass": "Main_HW3102_beta",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
+      "name": "Main1",
+      "request": "launch",
+      "mainClass": "Main1",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
       "name": "HW3102",
       "request": "launch",
       "mainClass": "HW3102",
