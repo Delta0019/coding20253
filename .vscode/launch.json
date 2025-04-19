@@ -3,6 +3,34 @@
   "configurations": [
     {
       "type": "java",
+      "name": "HW3102",
+      "request": "launch",
+      "mainClass": "HW3102",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
+      "name": "Solution1",
+      "request": "launch",
+      "mainClass": "Solution1",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
+      "name": "Solution",
+      "request": "launch",
+      "mainClass": "Solution",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
+      "name": "Meituan202503022Q2",
+      "request": "launch",
+      "mainClass": "Meituan202503022Q2",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
       "name": "NC16644",
       "request": "launch",
       "mainClass": "NC16644",
