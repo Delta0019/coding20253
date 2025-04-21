@@ -1,8 +1,7 @@
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
-class Solution {
+class HW438 {
     public List<Integer> findAnagrams(String s, String p) {
         int lens = s.length();
         int lenp = p.length();
@@ -29,10 +28,10 @@ class Solution {
     }
 }
 
-class Main {
+class Main_HW438 {
     public static void main(String[] args) {
         String s = "abab", p = "ab";
-        Solution solution = new Solution();
+        HW438 solution = new HW438();
         List<Integer> res = solution.findAnagrams(s, p);
         System.out.println(res);
     }
