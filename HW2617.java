@@ -2,8 +2,9 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 //  Key Point:
-//      1. Constant level optimization
-//      2. 
+//      1. 常数级优化: dfs(对每个点，记录还有多少步能到达终点, 对每个点会遍历多次——即便是O(1)) 
+//          -> heap for each col and row(对每个点，记录从原点来此需要的步数，对每个点只遍历一次)
+//      2. 密集图，路径问题
 class HW2617 {
     public int minimumVisitedCells(int[][] grid) {
         int row = grid.length;
