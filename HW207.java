@@ -1,11 +1,11 @@
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Queue;
 
 class Solution {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
+        @SuppressWarnings("unchecked")
         ArrayList<Integer>[] asPre = new ArrayList[numCourses];
         Arrays.setAll(asPre, i -> new ArrayList<>());
         int[] unfinPre = new int[numCourses];
