@@ -1,4 +1,4 @@
-class HW3163 {
+class LC03163 {
 
     public String compressedString(String word) {
         String comp = "";

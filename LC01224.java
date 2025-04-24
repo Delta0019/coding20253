@@ -3,7 +3,7 @@ import java.util.PriorityQueue;
 
 //  Key points: 
 //      1. A large variaty of boundary condition
-class HW1224 {
+class LC01224 {
     HashMap<Integer, Integer> map = new HashMap<>();
     int max_cnt = 1;
     int index_len = 2;
@@ -95,9 +95,9 @@ class HW1224 {
     }
 }
 
-class Main_HW1224 {
+class Main_LC01224 {
     public static void main(String[] args) {
-        HW1224 solution = new HW1224();
+        LC01224 solution = new LC01224();
         int[] nums = { 1, 1 };
         int res = solution.maxEqualFreq(nums);
         System.out.println(res);

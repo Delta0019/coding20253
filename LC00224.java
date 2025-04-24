@@ -1,6 +1,6 @@
 import java.util.LinkedList;
 
-class HW224 {
+class LC00224 {
     LinkedList<Integer> nums;
     LinkedList<Character> signals;
     char[] chars;
@@ -103,9 +103,9 @@ class HW224 {
     }
 }
 
-class Main_HW224 {
+class Main_LC00224 {
     public static void main(String[] args) {
-        HW224 solution = new HW224();
+        LC00224 solution = new LC00224();
         String s = "21";
         int res = solution.calculate(s);
         System.out.println(res);

@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class HW207 {
+class LC00207 {
     public boolean canFinish(int numCourses, int[][] prerequisites) {
         @SuppressWarnings("unchecked")
         ArrayList<Integer>[] asPre = new ArrayList[numCourses];
@@ -49,11 +49,11 @@ class HW207 {
     }
 }
 
-class Main_HW207 {
+class Main_LC00207 {
     public static void main(String[] args) {
         int numCourses = 2;
         int[][] prerequisites = { { 1, 0 } };
-        HW207 solution = new HW207();
+        LC00207 solution = new LC00207();
         boolean res = solution.canFinish(numCourses, prerequisites);
         System.out.println(res);
     }

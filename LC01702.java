@@ -1,7 +1,7 @@
 //  Key point: 
 //      1. Binary operation; 
 //      2. Convert the combinations of operations to an effective way.
-class HW1702 {
+class LC01702 {
     public String maximumBinaryString(String binary) {
         StringBuilder sBuilder = new StringBuilder(binary);
 
@@ -32,9 +32,9 @@ class HW1702 {
     }
 }
 
-class Main_HW1702 {
+class Main_LC01702 {
     public static void main(String[] args) {
-        HW1702 solution = new HW1702();
+        LC01702 solution = new LC01702();
         String binary = "01111001100000110010";
         System.out.println(solution.maximumBinaryString(binary));
     }

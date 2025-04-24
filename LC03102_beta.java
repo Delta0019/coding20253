@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 import java.util.Set;
 
-class HW3102_beta {
+class LC03102_beta {
 
     PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
@@ -92,10 +92,10 @@ class HW3102_beta {
     }
 }
 
-class Main_HW3102_beta {
+class Main_LC03102_beta {
     public static void main(String[] args) {
         int[][] points = { { 3, 10 }, { 5, 15 }, { 10, 2 }, { 4, 4 } };
-        HW3102_beta solution = new HW3102_beta();
+        LC03102_beta solution = new LC03102_beta();
         System.out.println(solution.minimumDistance(points));
     }
 }

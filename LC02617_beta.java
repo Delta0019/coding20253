@@ -1,4 +1,4 @@
-class HW2617_beta {
+class LC02617_beta {
     int col, row;
     int[][] to_dest;
     boolean[][] searched;
@@ -52,10 +52,10 @@ class HW2617_beta {
     }
 }
 
-class Main_HW2617_beta {
+class Main_LC02617_beta {
     public static void main(String[] args) {
         int[][] grid = { { 2, 1, 0 }, { 1, 0, 0 } };
-        HW2617_beta solution = new HW2617_beta();
+        LC02617_beta solution = new LC02617_beta();
         int res = solution.minimumVisitedCells(grid);
         System.out.println(res);
     }

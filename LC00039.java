@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.List;
 
-class HW39 {
+class LC00039 {
     public HashMap<Integer, List<List<Integer>>> map = new HashMap<>();
 
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
@@ -59,7 +59,7 @@ class Main_HW39 {
     public static void main(String[] args) {
         int[] candidates = { 2, 3, 6, 7 };
         int target = 7;
-        HW39 solution = new HW39();
+        LC00039 solution = new LC00039();
         System.out.println(solution.combinationSum(candidates, target));
         System.out.println(solution.map);
     }

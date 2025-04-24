@@ -3,7 +3,7 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-class HW3102 {
+class LC03102 {
     public int minimumDistance(int[][] points) {
 
         for (int i = 0; i < points.length; ++i) {
@@ -101,9 +101,9 @@ class HW3102 {
     }
 }
 
-class Main_HW3102 {
+class Main_LC03102 {
     public static void main(String[] args) {
-        HW3102 solution = new HW3102();
+        LC03102 solution = new LC03102();
         int[][] points = { { 5, 4 }, { 3, 4 }, { 10, 5 }, { 5, 4 }, { 5, 5 }, { 3, 7 } };
         System.out.println(solution.minimumDistance(points));
     }
