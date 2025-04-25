@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+// 集合覆盖问题，NP问题，只能使用贪心（求每次增长最多）求近似解
 public class HW20250416_1 {
     public static void main(String[] args) {
         ArrayList<ArrayList<Integer>> models = new ArrayList<>();
@@ -20,5 +21,6 @@ public class HW20250416_1 {
             }
         }
 
+        input.close();
     }
 }
