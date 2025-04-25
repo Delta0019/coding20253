@@ -55,7 +55,7 @@ class LC00039 {
     }
 }
 
-class Main_HW39 {
+class Main_LC00039 {
     public static void main(String[] args) {
         int[] candidates = { 2, 3, 6, 7 };
         int target = 7;

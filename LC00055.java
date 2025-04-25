@@ -31,7 +31,7 @@ class LC00055 {
     }
 }
 
-class Main_HW55 {
+class Main_LC00055 {
     public static void main(String[] args) {
         int[] nums = new int[] { 2, 3, 1, 1, 4 };
         LC00055 solution = new LC00055();
