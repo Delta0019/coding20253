@@ -18,6 +18,7 @@ public class HW20250416_1 {
         }
     }
 
+    @SuppressWarnings("unchecked")
     public static void main(String[] args) {
 
         Scanner input = new Scanner(System.in);
