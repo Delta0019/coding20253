@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TestDriver",
+      "request": "launch",
+      "mainClass": "TestDriver",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
+      "name": "HW20250416_2",
+      "request": "launch",
+      "mainClass": "HW20250416_2",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
+      "name": "HW20250416_3",
+      "request": "launch",
+      "mainClass": "HW20250416_3",
+      "projectName": "Coding_605f4174"
+    },
+    {
+      "type": "java",
       "name": "Main_HW1224",
       "request": "launch",
       "mainClass": "Main_HW1224",
