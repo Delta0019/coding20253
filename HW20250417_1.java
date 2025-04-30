@@ -31,18 +31,6 @@ public class HW20250417_1 {
 
         input.close();
 
-        Comparator<int[][]> comparatorEnd = new Comparator<int[][]>() {
-            public int compare(int[][] a, int[][] b) {
-                for (int i = 0; i < 4; ++i) {
-                    if (a[1][i] == b[1][i]) {
-                        continue;
-                    }
-                    return a[1][i] - b[1][i];
-                }
-                return 0;
-            }
-        };
-
         Comparator<int[][]> comparatorStart = new Comparator<int[][]>() {
             public int compare(int[][] a, int[][] b) {
                 for (int i = 0; i < 4; ++i) {
