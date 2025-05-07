@@ -9,6 +9,7 @@ public class HW20240522_3 {
     static HashMap<Integer, Integer> parent;
     static HashMap<Integer, ArrayList<Integer>> children;
     static int[][] dp;
+    static HashMap<Integer, HashMap<Integer, int[]>> store;
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
@@ -18,6 +19,7 @@ public class HW20240522_3 {
         parent = new HashMap<>();
         children = new HashMap<>();
         dp = new int[m][b + 1];
+        store = new HashMap<>();
 
         for (int i = 0; i < n; ++i) {
             int i1 = input.nextInt(), i2 = input.nextInt(), i3 = input.nextInt();
@@ -50,13 +52,22 @@ public class HW20240522_3 {
     public static void solve(int root, int b) {
         int[] packet = new int[b + 1];
 
+        if (!store.containsKey(root)) {
+            store.put(root, new HashMap<>());
+        }
+
         // 虽然其中部分点会被重复求，但存储结果用于下一次会使得代码略显冗余
-        for (int node : group2indexes.get(root)) {
-            int cost = index2info.get(node).get(2);
-            int value = index2info.get(node).get(1);
-            for (int i = b; i >= cost; --i) {
-                packet[i] = Math.max(packet[i], value + packet[i - cost]);
+        if (store.get(root).containsKey(b)) {
+            packet = store.get(root).get(b);
+        } else {
+            for (int node : group2indexes.get(root)) {
+                int cost = index2info.get(node).get(2);
+                int value = index2info.get(node).get(1);
+                for (int i = b; i >= cost; --i) {
+                    packet[i] = Math.max(packet[i], value + packet[i - cost]);
+                }
             }
+            store.get(root).put(b, packet);
         }
         dp[root][b] = packet[b];
 
